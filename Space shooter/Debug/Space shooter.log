@@ -1,0 +1,16 @@
+﻿  Game.cpp
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(73,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(73,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(234,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(235,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(235,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\janaf\source\repos\Space shooter\Space shooter\Game.cpp(266,20): warning C4018: '<': signed/unsigned mismatch
+  Space shooter.vcxproj -> C:\Users\janaf\source\repos\Space shooter\Debug\Space shooter.exe
