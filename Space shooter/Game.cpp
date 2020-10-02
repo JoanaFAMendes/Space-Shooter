@@ -127,6 +127,8 @@ void Game::updatePollEvents()
 	sf::Event e;
 	while (this->window->pollEvent(e))
 	{
+		if(e.Event::KeyPressed && e.Event::key.code == sf::Keyboard::P)
+			this->pause = !this->pause;
 		if (e.Event::type == sf::Event::Closed || (e.Event::KeyPressed && e.Event::key.code == sf::Keyboard::Escape))
 			this->window->close();
 	}
@@ -147,7 +149,7 @@ void Game::updateInput()
 		}
 
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::P)) {
-			this->pause = true;
+			this->pause = !this->pause;
 		}
 
 		
